@@ -35,3 +35,88 @@
 <hr>
 <a href="https://example.com">Ссылка</a>
 <img src="example.jpg" alt="Описание">
+
+# Лабораторная работа №5. Введение в HTML
+
+**ФИО:** Стренин Денис Олегович  
+**Группа:** ИСП-231  
+**Дата:** 27 февраля 2026 года  
+
+## 📋 Описание работы
+
+В данной лабораторной работе изучаются основы HTML: структура документа, базовые теги, атрибуты, списки, таблицы, формы и семантическая верстка. Создана полноценная веб-страница-визитка.
+
+### Что изучено:
+- ✅ Структура HTML-документа
+- ✅ Заголовки h1-h6
+- ✅ Абзацы и форматирование текста (strong, em)
+- ✅ Списки (нумерованные, маркированные, вложенные)
+- ✅ Ссылки и изображения
+- ✅ Таблицы
+- ✅ Формы и элементы ввода
+- ✅ Атрибуты HTML (id, class, title, src, alt, href, target)
+- ✅ Семантические теги HTML5 (header, nav, main, section, article, footer)
+
+## 📁 Структура проекта
+Lab5_Html_Strenin/
+├── index.html # Основной HTML-файл с примерами всех тегов
+├── index2.html # Пример семантической верстки
+├── about.html # Страница "Обо мне" с семантикой
+├── webpageCard.html # Итоговый проект - визитка
+├── README.md # Описание лабораторной работы
+├── img/ # Папка со скриншотами
+│ ├── gitPushLab5_Strenin.png
+│ ├── readmePushLab5_Strenin.png
+│ ├── htmlPageLab5_Strenin.png
+│ ├── basicTagsLab5_Strenin.png
+│ ├── listsLab5_Strenin.png
+│ ├── attributesLab5_Strenin.png
+│ ├── galleryLab5_Strenin.png
+│ ├── tableLab5_Strenin.png
+│ ├── formLab5_Strenin.png
+│ └── aboutLab5_Strenin.png
+
+
+## 🔤 Теги и элементы HTML
+
+### Парные теги:
+```html
+<h1>Заголовок</h1>
+<p>Абзац текста</p>
+<strong>Жирный текст</strong>
+<em>Курсив</em>
+
+<br>     <!-- Перенос строки -->
+<hr>     <!-- Горизонтальная линия -->
+<img>    <!-- Изображение -->
+<input>  <!-- Поле ввода -->
+
+<ul>
+    <li>Маркированный список</li>
+    <li>Второй элемент</li>
+</ul>
+
+<ol>
+    <li>Нумерованный список</li>
+    <li>Второй элемент</li>
+</ol>
+
+<table>
+    <tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+    </tr>
+    <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+</table>
+
+<form>
+    <input type="text" placeholder="Имя">
+    <select>
+        <option>Опция 1</option>
+        <option>Опция 2</option>
+    </select>
+    <button type="submit">Отправить</button>
+</form>
